@@ -23,13 +23,14 @@ if(state) {
 
         if(secondsLeft < 10) {
             secondDiv.textContent = '0' + secondsLeft;
-        } else [
+        } else {
             secondDiv.textContent = secondsLeft;
-        ]
+        }
         minuteDiv.textContent = '${minutesLeft'
 
         if(minutesLeft === 0 && secondsLeft === 0) {
-            clearInterval(myInterval;)
+            bells.play()
+            clearInterval(myInterval);
         }
     }
     myInterval = setInterval(updateSeconds, 1000);
