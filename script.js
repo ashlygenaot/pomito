@@ -1,12 +1,12 @@
-const bells = new Audio('./downloads/mixkit-achievement-bell-600.wav');
+const bells = new Audio('./sounds/bell.wav');
 const startBtn = document.querySelector('.btn-start');
-const session = documents.querySelector('.minutes');
+const session = document.querySelector('.minutes');
 let myInterval;
 let state = true;
 
 const appTimer = () => {
     const sessionAmount = Number.parseInt(session.textContent)
-}
+
 
 if(state) {
     state = false;
@@ -26,7 +26,7 @@ if(state) {
         } else {
             secondDiv.textContent = secondsLeft;
         }
-        minuteDiv.textContent = '${minutesLeft'
+        minuteDiv.textContent = `${minutesLeft}`
 
         if(minutesLeft === 0 && secondsLeft === 0) {
             bells.play()
@@ -36,6 +36,6 @@ if(state) {
     myInterval = setInterval(updateSeconds, 1000);
 }   else {
 alert('Session has already started.')
+    }
 }
-
 startBtn.addEventListener('click', appTimer);
