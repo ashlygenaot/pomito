@@ -5,13 +5,6 @@ This is a code - along project to the [Pomodoro Timer Tutorial](https://www.code
 
 
 
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-
 ## Introduction
 
 This was my first hands - on project using HTML5, CSS, JavaScript and Git. My goal was to improve upon the code provided by the tutorial and add useful features to improve the overall user experience.
