@@ -1,6 +1,6 @@
 # Pomo
 
-This is a code - along project to the [Pomodoro Timer Tutorial](https://www.codedex.io/projects/build-a-pomodoro-app-with-html-css-js) from Codedex. 
+This is a follow - along implementation of the [Pomodoro Timer Tutorial](https://www.codedex.io/projects/build-a-pomodoro-app-with-html-css-js) from Codedex. 
 <img width="1" alt="" src="">
 
 
