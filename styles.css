@@ -4,7 +4,7 @@ html {
     letter-spacing: 0.8px;
     min-height: 100vh;
     color: #d8e9ef;
-    background-image:linear-gradient(-20deg, #B3748E 0%, #74B399 100%) ;
+    background-color: #74B399;
     background-size: cover;
 }
 
@@ -20,6 +20,7 @@ p {
 .app-startmessage {
     height: 20px;
     margin: 10px auto 20px auto;
+    font-family: 'Sour Gummy',system-ui;
 }
 
 .app-container {
@@ -78,16 +79,15 @@ p {
 }
 
 .circle {
-    border-color: #bf5239;
+    border-color: #d8e9ef;
 }
 
 .circle-mask {
-    border-color: #e85a71;
+    border-color: #d8e9ef;
 }
 
 .app-counter-box {
-    font-family: 'Droid Sans Mono', monospace;
-    font-size: 250%;
+    font-family: 'Sour Gummy', system-ui;
     position: relative;
     top: 50px;
     color: #d8e9ef;
