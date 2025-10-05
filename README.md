@@ -13,7 +13,7 @@ This was my first hands - on project using HTML5, CSS, JavaScript and Git. My go
 
 - **Start, Pause, and Reset Buttons:** Functional start, pause, and reset buttions that are easy to use and seamless.
   
-- **Custom Themes:** 3 custom themes and a built-in darkmode for late night usage.
+- **Themes:** 3 color themes and a built-in darkmode for late night usage.
 
 - **Tasks:** 
 
