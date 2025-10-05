@@ -9,8 +9,9 @@ html {
 }
 
 h1 {
-    margin: 0 auto 10px auto;
+    margin: 0 auto 0px auto;
     color: #d8e9ef;
+    font-size: 3.8rem;
 }
 
 p {
@@ -18,9 +19,10 @@ p {
 }
 
 .app-startmessage {
-    height: 20px;
-    margin: 10px auto 20px auto;
+    height: 100px;
+    margin: 0 auto 20px auto;
     font-family: 'Sour Gummy',system-ui;
+    font-size: 1.25rem;
 }
 
 .app-container {
@@ -33,11 +35,12 @@ p {
 }
 
 .app-circle {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  width: 400px;
+  height: 400px;
 }
 
 .circle-shape {
@@ -51,8 +54,8 @@ p {
 
 .semi-circle {
   position: absolute;
-  width: 100px;
-  height: 200px;
+  width: 200px;
+  height: 400px;
   box-sizing: border-box;
   border: solid 6px;
 }
@@ -62,19 +65,19 @@ p {
   left: 0;
   transform-origin: right center;
   transform: rotate(0deg);
-  border-top-left-radius: 100px;
-  border-bottom-left-radius: 100px;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
   border-right: none;
   z-index: 1;
 }
 
  .right-side {
   top: 0;
-  left: 100px;
+  left: 200px;
   transform-origin: left center;
   transform: rotate(0deg);
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
   border-left: none;
 }
 
@@ -88,15 +91,21 @@ p {
 
 .app-counter-box {
     font-family: 'Sour Gummy', system-ui;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
     color: #d8e9ef;
+    font-size: 4.8rem;
+    text-align: center;
+    width: 100%;
 }
 
 button {
     position: relative;
-    top: 50px;
-    font-size: 80%;
+    top: 240px;
+    font-size: 1.3rem;
+    font-family: 'Sour Gummy', system-ui;
     text-transform: uppercase;
     letter-spacing: 1px;
     border: none;

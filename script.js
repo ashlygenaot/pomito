@@ -1,41 +1,71 @@
 const bells = new Audio('./sounds/bell.wav');
+
 const startBtn = document.querySelector('.btn-start');
-const session = document.querySelector('.minutes');
+const stopBtn = document.querySelector('.btn-stop');
+const resetBtn = document.querySelector('.btn-reset');
+
+const minuteDiv = document.querySelector('.minutes');
+const secondDiv = document.querySelector('.seconds');
+const sessionAmount = parseInt(minuteDiv.textContent); 
+
 let myInterval;
 let state = true;
+let totalSeconds;
 
+// Stores session duration
+const updateSeconds = () => {
+    const minutesLeft = Math.floor(totalSeconds/60);
+    const secondsLeft = totalSeconds % 60;
+
+    minuteDiv.textContent = `${minutesLeft}`;
+    secondDiv.textContent = secondsLeft < 10 ? '0' + secondsLeft : secondsLeft;
+
+};
+
+// Initializes timer
 const appTimer = () => {
-    const sessionAmount = Number.parseInt(session.textContent)
-
-
-if(state) {
-    state = false;
-    let totalSeconds = sessionAmount * 60;
-
-    const updateSeconds = () => {
-        const minuteDiv = document.querySelector('.minutes');
-        const secondDiv = document.querySelector('.seconds');
-
-        totalSeconds--;
-
-        let minutesLeft = Math.floor(totalSeconds/60);
-        let secondsLeft = totalSeconds % 60;
-
-        if(secondsLeft < 10) {
-            secondDiv.textContent = '0' + secondsLeft;
-        } else {
-            secondDiv.textContent = secondsLeft;
-        }
-        minuteDiv.textContent = `${minutesLeft}`
-
-        if(minutesLeft === 0 && secondsLeft === 0) {
-            bells.play()
-            clearInterval(myInterval);
-        }
-    }
-    myInterval = setInterval(updateSeconds, 1000);
-}   else {
-alert('Session has already started.')
-    }
+    if(!state) {
+        alert('Session has already started.');
+        return;
 }
+
+if (isNaN(totalSeconds)) {
+totalSeconds = sessionAmount * 60;
+}
+
+updateSeconds();
+
+state = false;
+
+myInterval= setInterval(() => {
+    totalSeconds--;
+
+    if (totalSeconds <= 0) {
+        clearInterval(myInterval);
+        bells.play();
+        state = true;
+        return;
+    }   
+
+    updateSeconds();
+  }, 1000);
+};
+
+// Stops timer and ensures reset is possible
+const stopTimer = () => {
+    clearInterval(myInterval);
+    state = true;
+};
+
+// Resets to original time
+const resetTimer = () => {
+    clearInterval(myInterval);
+    totalSeconds = sessionAmount * 60;
+    updateSeconds();
+    state = true;
+}
+
+// Initializes button event listeners
+stopBtn.addEventListener('click', stopTimer);
+resetBtn.addEventListener('click', resetTimer);
 startBtn.addEventListener('click', appTimer);
