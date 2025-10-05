@@ -11,9 +11,9 @@ This was my first hands - on project using HTML5, CSS, JavaScript and Git. My go
 
 ## Features
 
-- **Start,Pause, and Reset:**
+- **Start, Pause, and Reset Buttons:** Functional start, pause, and reset buttions that are easy to use and seamless.
   
-- **Custom Themes:** 
+- **Custom Themes:** 3 custom themes and a built-in darkmode for late night usage.
 
 - **Tasks:** 
 
