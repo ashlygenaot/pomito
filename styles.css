@@ -38,7 +38,7 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -90%);
+  transform: translate(-50%, -100%);
   width: 300px;
   height: 300px;
 }
@@ -94,7 +94,7 @@ p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
     color: #d8e9ef;
     font-size: 4.5rem;
     text-align: center;
@@ -253,7 +253,7 @@ html.defaultmode, html.defaultmode body {
     min-height: 50vh;
     background: transparent;
     padding: 0;
-    margin-top: -72px;
+    margin-top: -100px;
 }
 
 .tasks {
