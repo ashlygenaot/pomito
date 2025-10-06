@@ -4,13 +4,13 @@ html, body {
     font-size: 20px;
     letter-spacing: 0.8px;
     min-height: 100vh;
-    color: #d8e9ef ;
+    color: white ;
     background-color:#74B399;
 }
 
 h1 {
     margin: -30px auto 0px auto;
-    color: #d8e9ef;
+    color: white;
     font-size: 3.8rem;
 }
 
@@ -82,11 +82,11 @@ p {
 }
 
 .circle {
-    border-color: #d8e9ef;
+    border-color: white;
 }
 
 .circle-mask {
-    border-color: #d8e9ef;
+    border-color: white;
 }
 
 .app-counter-box {
@@ -95,7 +95,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #d8e9ef;
+    color: white;
     font-size: 4.5rem;
     text-align: center;
     width: 100%;
@@ -111,7 +111,7 @@ button {
     border: none;
     background: none;
     outline: none;
-    color: #d8e9ef;
+    color: white;
 }
 
 button:hover {
@@ -178,7 +178,7 @@ html.darkmode, html.darkmode body {
 
 html.pinkmode, html.pinkmode body {
     background-color: #B3748E;
-    color: #dbdbdb;
+    color: white;
 }
 
 #theme-picker-3 {
@@ -197,7 +197,7 @@ html.pinkmode, html.pinkmode body {
 
 html.purplemode, html.purplemode body {
     background-color: #7974B3;
-    color: #dbdbdb;
+    color: white;
 }
 
 #theme-picker-4 {
@@ -216,7 +216,7 @@ html.purplemode, html.purplemode body {
 
 html.bluemode, html.bluemode body {
     background-color: #748EB3;
-    color: #dbdbdb;
+    color: white;
 }
 
 #theme-picker-default {
@@ -235,7 +235,7 @@ html.bluemode, html.bluemode body {
 
 html.defaultmode, html.defaultmode body {
     background-color: #74B399;
-    color: #dbdbdb;
+    color: white;
 }
 
 #theme-picker,
@@ -259,7 +259,7 @@ html.defaultmode, html.defaultmode body {
 .tasks {
     width: 100%;
     max-width: 540px;
-    background:#d8e9ef ;
+    background:white;
     margin: 100px auto 20px;
     padding: 30px 30px 50px;
     border-radius: 10px;
@@ -278,14 +278,14 @@ html.defaultmode, html.defaultmode body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #dbdbdb;
+    background: white;
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
 }
 .row button {
-    background-color: #969696;
-    color: #d8e9ef;
+    background-color: #555;
+    color: white;
     border: none;
     padding: 10px;
     margin-left: 0;
@@ -296,7 +296,7 @@ html.defaultmode, html.defaultmode body {
 }
 
 .row button:hover {
-    background-color: #555;
+    background-color: #969696;
 }
 
 
@@ -306,7 +306,7 @@ input[type="text"] {
     padding: 10px;
     font-size: 1rem;
     font-family: 'Sour Gummy', system-ui;
-    background-color: #dbdbdb !important;
+    background-color: white !important;
     border: none;
     outline: none;
 }
