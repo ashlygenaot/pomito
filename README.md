@@ -21,13 +21,20 @@ This was my first hands - on project using HTML, CSS, JavaScript. My goal was to
 
 - **Tasks:** Integrated to-do list to use alongside timer which allows creation, deletion and crossing-off of tasks.
 
+ ## Future Features:
+- **Break and Long Break Timers:** Functional and customizable break timers.
+  
+- **Automatic Pomodoro Cycle:** Seamless pomodoro cycle with automatic switching to break timers.
+  
+- **Stats:** Stats list that tracks timers elapsed and tasks completed.
+
 
 ## Technologies Used:
 
 - HTML 5
 - CSS
 - JavaScript
-
+  
 ---
 
 Thanks for reading! If you have any feedback, don't hesitate to reach out.
