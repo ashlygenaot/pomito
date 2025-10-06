@@ -9,7 +9,7 @@ html, body {
 }
 
 h1 {
-    margin: 0 auto 0px auto;
+    margin: -30px auto 0px auto;
     color: #d8e9ef;
     font-size: 3.8rem;
 }
@@ -38,9 +38,9 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -40%);
-  width: 400px;
-  height: 400px;
+  transform: translate(-50%, -70%);
+  width: 300px;
+  height: 300px;
 }
 
 .circle-shape {
@@ -54,8 +54,8 @@ p {
 
 .semi-circle {
   position: absolute;
-  width: 200px;
-  height: 400px;
+  width: 150px;
+  height: 300px;
   box-sizing: border-box;
   border: solid 6px;
 }
@@ -73,7 +73,7 @@ p {
 
  .right-side {
   top: 0;
-  left: 200px;
+  left: 150px;
   transform-origin: left center;
   transform: rotate(0deg);
   border-top-right-radius: 200px;
@@ -94,17 +94,17 @@ p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -55%);
+    transform: translate(-50%, -60%);
     color: #d8e9ef;
-    font-size: 4.8rem;
+    font-size: 4.5rem;
     text-align: center;
     width: 100%;
 }
 
 button {
     position: relative;
-    top: 240px;
-    font-size: 1.3rem;
+    top: 185px;
+    font-size: 1.1rem;
     font-family: 'Sour Gummy', system-ui;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -245,4 +245,117 @@ html.defaultmode, html.defaultmode body {
 #theme-picker-default {
   border: 2px solid white;
   border-radius: 50%;
+}
+
+.tasks-container {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background: transparent;
+    padding: 0;
+    margin-top: -72px;
+}
+
+.tasks {
+    width: 100%;
+    max-width: 540px;
+    background:#d8e9ef ;
+    margin: 100px auto 20px;
+    padding: 30px 30px 50px;
+    border-radius: 10px;
+    top: 600px;
+}
+
+.tasks h2{
+    color:#555 ;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #dbdbdb;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.row button {
+    background-color: #969696;
+    color: #d8e9ef;
+    border: none;
+    padding: 10px;
+    margin-left: 0;
+    border-radius: 50px;
+    top: 1px;
+    cursor: pointer;
+    font-family: 'Sour Gummy', system-ui;
+}
+
+.row button:hover {
+    background-color: #555;
+}
+
+
+input[type="text"] {
+    flex: 1;
+    color: black !important; 
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Sour Gummy', system-ui;
+    background-color: #dbdbdb !important;
+    border: none;
+    outline: none;
+}
+
+ul li {
+list-style: none;
+font-size: 17px;
+color: black;
+padding: 12px 8px 12px 50px;
+user-select: none;
+cursor: pointer;
+position: relative;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/radio_button_unchecked_24dp_0D0D0D_FILL1_wght400_GRAD0_opsz24.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+ul li.done{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.done::before {
+    background-image: url(images/radio_button_checked_24dp_0D0D0D_FILL1_wght400_GRAD0_opsz24.png);
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background: #c4c4c4;
 }
