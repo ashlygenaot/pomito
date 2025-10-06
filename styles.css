@@ -1,11 +1,11 @@
-html {
+
+html, body {
     font-family: "Cherry Bomb One", system-ui;
     font-size: 20px;
     letter-spacing: 0.8px;
     min-height: 100vh;
-    color: #d8e9ef;
-    background-color: #74B399;
-    background-size: cover;
+    color: #d8e9ef ;
+    background-color:#74B399;
 }
 
 h1 {
@@ -115,5 +115,134 @@ button {
 }
 
 button:hover {
-    color: #90c0d1;
+    color: #dbdbdb;
+}
+
+#theme-picker {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+#theme-picker span{
+    fill: black;
+}
+
+#theme-picker span:last-child{
+    display: none;
+}
+
+.darkmode #theme-picker span:first-child {
+    display: none;
+}
+.darkmode #theme-picker span:last-child {
+    display: block;
+}
+
+
+html.darkmode, html.darkmode body {
+    background-color: #3b3b3b;
+    color: #dbdbdb;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#theme-picker-2 {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #B3748E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 80px;
+} 
+
+
+html.pinkmode, html.pinkmode body {
+    background-color: #B3748E;
+    color: #dbdbdb;
+}
+
+#theme-picker-3 {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #7974B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 145px;
+} 
+
+html.purplemode, html.purplemode body {
+    background-color: #7974B3;
+    color: #dbdbdb;
+}
+
+#theme-picker-4 {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #748EB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 210px;
+} 
+
+html.bluemode, html.bluemode body {
+    background-color: #748EB3;
+    color: #dbdbdb;
+}
+
+#theme-picker-default {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #74B399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 280px;
+}
+
+html.defaultmode, html.defaultmode body {
+    background-color: #74B399;
+    color: #dbdbdb;
+}
+
+#theme-picker,
+#theme-picker-2,
+#theme-picker-3,
+#theme-picker-4,
+#theme-picker-default {
+  border: 2px solid white;
+  border-radius: 50%;
 }
