@@ -4,9 +4,9 @@ This is a follow - along implementation of the [Pomodoro Timer Tutorial](https:/
 
 ## Visit The Site
 
-Check it out [here](pomito-opal.vercel.app/)
+Check it out [here](ashlygenaot/pomito/blob/main/pomito-opal.vercel.apppomito-opal.vercel.app/)
 
-<img width="1451" height="829" alt="Screenshot 2025-10-06 at 1 59 28 AM" src="https://github.com/user-attachments/assets/7b01282c-71ed-4ef7-8d84-5ea536009cae" />
+<img width="1451" height="829" alt="Screenshot 2025-10-06 at 1 59 28 AM" src="https://github.com/user-attachments/assets/7b01282c-71ed-4ef7-8d84-5ea536009cae">
 
 
 ## Introduction
