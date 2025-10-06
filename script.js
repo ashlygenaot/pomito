@@ -1,4 +1,4 @@
-const bells = new Audio('./sounds/bell.wav');
+const bells = new Audio('./sounds/mixkit-achievement-bell-600 (2).wav');
 
 const startBtn = document.querySelector('.btn-start');
 const stopBtn = document.querySelector('.btn-stop');
