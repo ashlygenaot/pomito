@@ -306,7 +306,7 @@ input[type="text"] {
     padding: 10px;
     font-size: 1rem;
     font-family: 'Sour Gummy', system-ui;
-    background-color: white !important;
+    background-color: #dbdbdb !important;
     border: none;
     outline: none;
 }
