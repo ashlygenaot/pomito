@@ -6,8 +6,7 @@ This is a follow - along implementation of the [Pomodoro Timer Tutorial](https:/
 
 Check it out [here :)](https://pomito-opal.vercel.app/)
 
-<img width="1451" height="829" alt="Screenshot 2025-10-06 at 1 59 28 AM" src="https://github.com/user-attachments/assets/7b01282c-71ed-4ef7-8d84-5ea536009cae">
-
+<img width="1904" height="992" alt="Screenshot 2025-10-06 at 4 00 41 AM" src="https://github.com/user-attachments/assets/3655b782-87cf-4f83-96a1-5f1b2e0b0bfa" />
 
 
 ## Introduction
@@ -22,13 +21,20 @@ This was my first hands - on project using HTML, CSS, JavaScript. My goal was to
 
 - **Tasks:** Integrated to-do list to use alongside timer which allows creation, deletion and crossing-off of tasks.
 
+ ## Future Features:
+- **Break and Long Break Timers:** Functional and customizable break timers.
+  
+- **Automatic Pomodoro Cycle:** Seamless pomodoro cycle with automatic switching to break timers.
+  
+- **Stats:** Stats list that tracks timers elapsed and tasks completed.
+
 
 ## Technologies Used:
 
 - HTML 5
 - CSS
 - JavaScript
-
+  
 ---
 
 Thanks for reading! If you have any feedback, don't hesitate to reach out.
