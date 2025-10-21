@@ -1,8 +1,8 @@
-// Initializes variables
+// Gets references to input box and list container
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
-// Adds functionality for to-do list and adds span X used to remove tasks
+// Adds a new task and adds X to remove the task
 function addTask (){
     if(inputBox.value === '') {
         alert("You must write something!");
@@ -20,7 +20,7 @@ function addTask (){
     saveData();
 }
 
-// Adds functionality for marking completed tasks and removing tasks when X is pressed
+// Adds functionality for clicks on the list: marking done or removing tasks when x is clicked
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName == "LI") {
         e.target.classList.toggle("done");
@@ -32,12 +32,12 @@ listContainer.addEventListener("click", function(e){
     }
 }, false);
 
-// Prevents deletion of tasks upon refresh
+// Saves current task list to localStorage
 function saveData (){
     localStorage.setItem("data", listContainer.innerHTML);
 }
 
-// Displays tasks in to-do list
+// Load and display tasks from localStorage on page load
 function displayTask () {
     listContainer.innerHTML = localStorage.getItem("data");
 }
