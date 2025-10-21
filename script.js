@@ -1,3 +1,4 @@
+// Initializes variables
 const bells = new Audio('./sounds/mixkit-achievement-bell-600 (2).wav');
 
 const startBtn = document.querySelector('.btn-start');
