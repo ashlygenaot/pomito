@@ -41,14 +41,14 @@ state = false;
 myInterval= setInterval(() => {
     totalSeconds--;
 
+    updateSeconds();
+
     if (totalSeconds <= 0) {
         clearInterval(myInterval);
         bells.play();
         state = true;
         return;
     }   
-
-    updateSeconds();
   }, 1000);
 };
 
