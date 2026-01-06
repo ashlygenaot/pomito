@@ -38,7 +38,7 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -80%);
+  transform: translate(-50%, -65%);
   width: 300px;
   height: 300px;
 }
@@ -253,7 +253,7 @@ html.defaultmode, html.defaultmode body {
     min-height: 50vh;
     background: transparent;
     padding: 0;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .tasks {
@@ -358,4 +358,38 @@ ul li span {
 
 ul li span:hover {
     background: #c4c4c4;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #dbdbdb;
+    color: #555;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.task-stats { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #dbdbdb;
+    color: #555;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.session-type {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
 }
