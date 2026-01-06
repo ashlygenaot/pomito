@@ -16,18 +16,17 @@ This was my first hands - on project using HTML, CSS, JavaScript. My goal was to
 ## Features
 
 - **Start, Pause, and Reset Buttons:** Functional start, pause, and reset buttions that are easy to use.
+
+- **Break and Long Break Timers:** Functional and customizable break timers.
+  
+- **Automatic Pomodoro Cycle:** Seamless pomodoro cycle with automatic switching to break timers.
   
 - **Themes:** 5 color themes including a built-in darkmode for late night usage.
 
 - **Tasks:** Integrated to-do list to use alongside timer which allows creation, deletion and crossing-off of tasks.
 
- ## Future Features:
-- **Break and Long Break Timers:** Functional and customizable break timers.
+- **Stats:** Stats tracking for pomodoros, breaks, long breaks and tasks list.
   
-- **Automatic Pomodoro Cycle:** Seamless pomodoro cycle with automatic switching to break timers.
-  
-- **Stats:** Stats list that tracks timers elapsed and tasks completed.
-
 
 ## Technologies Used:
 
