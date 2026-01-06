@@ -17,7 +17,7 @@ This was my first hands - on project using HTML, CSS, JavaScript. My goal was to
 
 - **Start, Pause, and Reset Buttons:** Functional start, pause, and reset buttions that are easy to use.
 
-- **Break and Long Break Timers:** Functional and customizable break timers.
+- **Break and Long Break Timers:** Functional and automatic break timers.
   
 - **Automatic Pomodoro Cycle:** Seamless pomodoro cycle with automatic switching to break timers.
   
