@@ -6,7 +6,8 @@ This is a follow - along implementation of the [Pomodoro Timer Tutorial](https:/
 
 Check it out [here :)](https://pomito-opal.vercel.app/)
 
-<img width="1904" height="992" alt="Screenshot 2025-10-06 at 4 00 41 AM" src="https://github.com/user-attachments/assets/3655b782-87cf-4f83-96a1-5f1b2e0b0bfa" />
+<img width="1904" height="992" alt="Screenshot 2026-01-06 at 6 28 08 PM" src="https://github.com/user-attachments/assets/8398a516-bfc4-404f-970c-9a0dc4c88375" />
+
 
 
 ## Introduction
